@@ -68,3 +68,30 @@ const d = 1; {
     console.log("existe d?", d);
 }
 console.log("existe d depois do bloco? ", d);
+
+
+
+// Variáveis e tipos de dados
+// declaração or declaration
+var name
+
+//assigments ou atribuição de valores
+name = "Nicolas"
+
+// que tipo de dado foi colocado na varialvel
+
+console.log(typeof name)
+
+// agrupamento de declarações
+let age, isHuman
+
+age = 18
+isHuman = true
+
+console.log(name, age, isHuman)
+
+// conectando os valores
+console.log('o ' + name + ' tem' + age + 'anos')
+
+//template literals
+console.log(`o ${name} tem ${age} anos`)
